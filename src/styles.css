@@ -5,6 +5,7 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	background-color: #343448;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
