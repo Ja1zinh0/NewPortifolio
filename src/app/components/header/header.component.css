@@ -13,7 +13,7 @@ header {
   float: left;
   align-content: start;
   align-items: start;
-  padding: 8px 0 0 0;
+  padding: 8px 0 0 12px;
   background-color: #2a2a3d;
   font-size: large;
   list-style: none;
