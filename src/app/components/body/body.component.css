@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+@media (max-width: 767px) {
+    .home-text{
+        text-align: center;
+        color: white;
+        padding-top: 80px;
+    }
+    .irish-font{
+        font-family: 'Irish Grover', system-ui;
+        padding: 5px 0 5px 0;
+    }
+    .jolly-font{
+        font-family: 'Jolly Lodger', system-ui;
+    }
+  }
+  
