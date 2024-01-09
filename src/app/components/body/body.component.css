@@ -46,7 +46,7 @@
 
     .arrow-pos{
         padding-top: 10px;
-        animation: arrow-floating 2s linear infinite;
+        animation: arrow-floating 1s ease-out infinite;
     }
 
     @keyframes arrow-floating {
