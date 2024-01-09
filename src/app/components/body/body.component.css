@@ -45,7 +45,17 @@
     }
 
     .arrow-pos{
-        padding-top: 13px;
+        padding-top: 10px;
+        animation: arrow-floating 2s linear infinite;
     }
+
+    @keyframes arrow-floating {
+        0% {
+          transform: translateY(0px);
+        }
+        25% {
+          transform: translateY(8px);
+        }
+      }
   }
   
