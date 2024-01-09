@@ -98,6 +98,7 @@ header {
   .menu_icon {
     display: inline-block;
     position: relative;
+    background-color: #2A2B47;
   }
 
   .menu_icon span {
