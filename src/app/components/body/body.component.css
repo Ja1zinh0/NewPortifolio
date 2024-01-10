@@ -1,61 +1,127 @@
+.center-desktop {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+}
+.home-text {
+  color: white;
+  font-weight: 500;
+  text-align: start;
+}
 
-@media (max-width: 767px) {
+.ola-style {
+  font-size: 100px;
+}
+.presentation-style {
+  padding-top: 40px;
+  font-size: 70px;
+}
+.profession-style {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 30px;
+}
 
-    .home-text{
-        text-align: center;
-        color: rgb(255, 255, 255);
-        padding-top: 80px;
-        font-weight: 500;
+.fa-icons {
+  color: white;
+  display: flex;
+}
+.home-text a {
+  color: inherit;
+  padding-left: 25px;
+}
+.rectangle-center{
+    display: none;
+}
+.arrow {
+  color: #2a2b47;
+  font-size: 30px;
+}
+
+.arrow-pos {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  animation: arrow-floating 1s ease-out infinite;
+}
+
+@keyframes arrow-floating {
+    0% {
+      transform: translateY(0px);
     }
-
-    .home-text a{
-        color: inherit; 
+    25% {
+      transform: translateY(10px);
     }
-
-    .fa-icons{
-        display:flex;
-        justify-content: space-evenly;
-        padding-top: 20px;
-    }
-    .rectangle {
-        height: 50px;
-        width: 110px;
-        background-color: #2A2B47;
-        border-radius: 25px;
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        font-size: 16px;
-    }
-
-    .rectangle-center{
-        padding-top: 75px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .rectangle-center a{
-        text-decoration: none;
-    }
-
-
-    .arrow{
-        color: #2A2B47;
-        font-size: 30px;
-    }
-
-    .arrow-pos{
-        padding-top: 10px;
-        animation: arrow-floating 1s ease-out infinite;
-    }
-
-    @keyframes arrow-floating {
-        0% {
-          transform: translateY(0px);
-        }
-        25% {
-          transform: translateY(8px);
-        }
-      }
   }
-  
+
+@media (max-width: 800px) {
+  .center-desktop {
+    all: unset;
+  }
+  .ola-style {
+    font-size: 60px;
+    padding-bottom: 22px;
+  }
+  .presentation-style {
+    font-size: 30px;
+  }
+  .profession-style {
+    font-size: 15px;
+  }
+  .home-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 80px;
+    font-weight: 500;
+  }
+
+  .home-text a {
+    color: inherit;
+  }
+
+  .fa-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+  .rectangle {
+    height: 50px;
+    width: 110px;
+    background-color: #2a2b47;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .rectangle-center {
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .rectangle-center a {
+    text-decoration: none;
+  }
+
+  .arrow {
+    color: #2a2b47;
+    font-size: 30px;
+  }
+
+  .arrow-pos {
+    padding-top: 10px;
+    animation: arrow-floating 1s ease-out infinite;
+  }
+
+  @keyframes arrow-floating {
+    0% {
+      transform: translateY(0px);
+    }
+    25% {
+      transform: translateY(8px);
+    }
+  }
+}
