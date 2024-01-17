@@ -17,7 +17,7 @@ import { BodyComponent } from './components/body/body.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
   ],
   imports: [
     BrowserModule,
