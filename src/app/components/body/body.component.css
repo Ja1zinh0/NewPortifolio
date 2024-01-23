@@ -1,0 +1,11 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-text {
+  padding-top: 15%;
+  padding-left: 15px;
+  color: white;
+  line-height: 30px;
+}
