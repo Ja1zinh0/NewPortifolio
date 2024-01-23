@@ -9,3 +9,64 @@
   color: white;
   line-height: 30px;
 }
+
+.ola-style {
+  font-size: 80px;
+  padding-bottom: 30px;
+}
+
+.pres-style {
+  font-size: 64px;
+}
+
+.me-style {
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.fa-icons a{
+  color: white;
+  padding-right: 30px;
+  font-size: 65px;
+}
+
+.about {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.about-background {
+  height: 600px;
+  width: 100%;
+  background-color: #6e5774;
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  background-color: #6e5774;
+  display: flex;
+  justify-content: center;
+}
+.about-text-align {
+  background-color: #6e5774;
+  width: 90%;
+  font-size: large;
+  text-align: center;
+}
+
+.about-text-align p {
+  background-color: #6e5774;
+  color: white;
+}
+
+.about-title{
+  padding: 20px 0 30px 0;
+  font-size: 60px;
+}
+
+.about-centerText{
+  font-size: 30px;
+  word-spacing: 1px;
+  line-height:110%;
+}
