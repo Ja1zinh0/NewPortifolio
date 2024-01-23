@@ -4,7 +4,7 @@
 header {
   background-color: #2A2B47;
   overflow: hidden;
-  height: 35px;
+  height: 40px;
   font-size: large;
 }
 .left-write {
@@ -13,7 +13,7 @@ header {
   align-items: start;
   padding: 8px 0 0 12px;
   background-color: #2A2B47;
-  font-size: large;
+  font-size: 25px;
   list-style: none;
   text-decoration: none;
   color: #ffffff;
@@ -39,6 +39,7 @@ header {
   text-transform: uppercase;
 }
 .menu ul li a {
+  font-size: 20px;
   list-style: none;
   text-decoration: none;
   color: #ffffff;
