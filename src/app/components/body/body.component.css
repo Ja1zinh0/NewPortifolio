@@ -62,7 +62,7 @@
   justify-content: center;
 }
 .about-background {
-  height: 600px;
+  height: 650px;
   width: 100%;
   background-color: #6e5774;
   display: flex;
@@ -247,3 +247,85 @@
 .tecn-content p {
   background-color: #403951;
 }
+
+.proj-title{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+  padding-top: 250px;
+}
+
+.projects{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.proj-screen1{
+  width: 267px;
+  height: 454px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 30px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proj-screen1 img{
+  width: 220px;
+  height: 400px;
+}
+
+.proj-screen2{
+  width: 267px;
+  height: 454px;
+  background-color: rgb(146, 146, 146);
+  border-radius: 30px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proj-screen2 p{
+  background-color: rgb(146, 146, 146);
+  font-size: 30px;
+}
+
+.proj-screen3{
+  width: 267px;
+  height: 454px;
+  background-color: rgb(146, 146, 146);
+  border-radius: 30px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proj-screen3 p{
+  background-color: rgb(146, 146, 146);
+  font-size: 30px;
+}
+
+.vermais{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.vermais div{
+  display:flex;
+}
+.vermais a{
+  font-size: 22px;
+  text-decoration: none;
+  color: inherit;
+}
+.vermais span{
+  padding-left: 10px;
+  font-size: 40px;
+}
+
