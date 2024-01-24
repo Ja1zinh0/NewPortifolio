@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;1,100;1,200&display=swap');
+@import 'srs/app/components/body/body.component.css';
+@import 'srs/app/components/header/header.component.css';
 *{
     margin: 0;
 	padding: 0;
