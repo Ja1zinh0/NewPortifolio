@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-text {
+  padding-top: 10%;
+  padding-left: 15px;
+  color: white;
+  line-height: 30px;
+}
+
+.ola-style {
+  font-size: 80px;
+  padding-bottom: 30px; 
+}
+
+.pres-style {
+  font-size: 64px;
+}
+
+.me-style {
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.fa-icons a {
+  color: white;
+  padding-right: 30px;
+  font-size: 65px;
+}
+
+.resume-button {
+  position: relative;
+  width: 240px;
+  background-color: #5b5271;
+  border: 2px solid black;
+  height: auto;
+}
+
+.resume-button a {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+  text-decoration: none;
+  color: inherit;
+}
+.resume-button a:hover {
+  background-color: #634c9b;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.resume-button-div {
+  padding-top: 40px;
+}

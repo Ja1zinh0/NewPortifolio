@@ -1,0 +1,77 @@
+.contact {
+  padding-top: 15%;
+}
+
+.contact-text {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.top-field {
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
+}
+.top-field label {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+.name_field {
+  font-family: inherit;
+  width: 360px;
+  border: 0;
+  border-bottom: 2px solid rgb(233, 233, 233);
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+}
+
+.name_field:focus {
+}
+
+.email_field {
+  font-family: inherit;
+  width: 360px;
+  border: 0;
+  border-bottom: 2px solid rgb(233, 233, 233);
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+}
+
+.email_field:focus {
+}
+.msg-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
+}
+
+.msg-div label {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+.msg_field {
+  font-family: inherit;
+  width: 700px;
+  height: 100px;
+  border: 0;
+  border-bottom: 2px solid rgb(233, 233, 233);
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  resize: none;
+}
+
+.msg_field:focus {
+}
