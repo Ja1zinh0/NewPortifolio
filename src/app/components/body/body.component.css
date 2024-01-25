@@ -258,8 +258,12 @@
 
 .projects{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 60px;
+}
+
+.proj-padding{
+  padding-right: 10px;
 }
 
 .proj-screen1{
@@ -311,21 +315,14 @@
 }
 
 .vermais{
+  padding-top: 80px;
   display: flex;
-  align-items: center;
+  justify-content: center;
   color: white;
 }
 
-.vermais div{
-  display:flex;
+.vermais-btn{
+  width: 150px;
+  height: 40px;
+  background-color: black;
 }
-.vermais a{
-  font-size: 22px;
-  text-decoration: none;
-  color: inherit;
-}
-.vermais span{
-  padding-left: 10px;
-  font-size: 40px;
-}
-
