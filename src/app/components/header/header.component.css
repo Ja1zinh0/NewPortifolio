@@ -1,5 +1,5 @@
 header {
-  background-color: #2A2B47;
+  background-color: #2a2b47;
   overflow: hidden;
   height: 40px;
   font-size: large;
@@ -9,27 +9,27 @@ header {
   align-content: start;
   align-items: start;
   padding: 8px 0 0 12px;
-  background-color: #2A2B47;
+  background-color: #2a2b47;
   font-size: 25px;
   list-style: none;
   text-decoration: none;
   color: #ffffff;
 }
-.left-write:hover{
-    color: #e9bcf7;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
+.left-write:hover {
+  color: #e9bcf7;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 .menu ul {
   padding: 8px 0 0 0;
   margin: 0;
   float: right;
-  background-color: #2A2B47;
+  background-color: #2a2b47;
 }
 
 .menu ul li {
   display: inline-block;
-  background-color: #2A2B47;
+  background-color: #2a2b47;
   padding-left: 12px;
   padding-right: 10px;
 
@@ -40,7 +40,7 @@ header {
   list-style: none;
   text-decoration: none;
   color: #ffffff;
-  background-color: #2A2B47;
+  background-color: #2a2b47;
 }
 .menu ul li a:hover {
   color: #e9bcf7;
@@ -50,14 +50,14 @@ header {
 
 @media (max-width: 767px) {
   header {
-    background-color: #2A2B47;
+    background-color: #2a2b47;
     overflow: hidden;
     font-size: 13px;
   }
   .menu-right {
     float: right;
     padding: 7px 8px 10px 0;
-    background-color: #2A2B47;
+    background-color: #2a2b47;
   }
   .menu {
     position: fixed;
@@ -65,13 +65,13 @@ header {
     right: -768px;
     width: 35%;
     height: 100%;
-    background: #2A2B47;
+    background: #2a2b47;
     transition: 0.4s ease-in-out;
     overflow: hidden;
   }
 
   .menu ul {
-    background-color: #2A2B47;
+    background-color: #2a2b47;
     align-content: center;
     align-items: center;
     display: contents;
@@ -86,17 +86,17 @@ header {
     text-align: center;
     margin: 0;
     padding: 10px 20px 10px 26px;
-    border-bottom: 1px solid #2A2B47;
-    background-color: #2A2B47;
+    border-bottom: 1px solid #2a2b47;
+    background-color: #2a2b47;
   }
   .menu ul li a {
-    background-color: #2A2B47;
+    background-color: #2a2b47;
     text-shadow: 2px 3px 2px #252422;
   }
   .menu_icon {
     display: inline-block;
     position: relative;
-    background-color: #2A2B47;
+    background-color: #2a2b47;
   }
 
   .menu_icon span {
