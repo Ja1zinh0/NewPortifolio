@@ -1,6 +1,6 @@
 .home {
-  display: flex;
-  justify-content: space-between;
+  display: flex !important;
+  justify-content: space-between !important;;
 }
 
 .home-text {
@@ -11,12 +11,12 @@
 }
 
 .ola-style {
-  font-size: 80px;
-  padding-bottom: 30px;
+  font-size: 80px !important;;
+  padding-bottom: 30px !important;;
 }
 
 .pres-style {
-  font-size: 64px;
+  font-size: 64px !important;;
 }
 
 .me-style {
