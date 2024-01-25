@@ -1,22 +1,22 @@
 .home {
-  display: flex !important;
-  justify-content: space-between !important;;
+  display: flex;
+  justify-content: space-between;
 }
 
 .home-text {
-  padding-top: 10% !important;
-  padding-left: 15px !important;
-  color: white !important;
-  line-height: 30px !important;
+  padding-top: 10%;
+  padding-left: 15px;
+  color: white;
+  line-height: 30px;
 }
 
 .ola-style {
-  font-size: 80px !important;
-  padding-bottom: 30px !important;
+  font-size: 80px;
+  padding-bottom: 30px;
 }
 
 .pres-style {
-  font-size: 64px !important;
+  font-size: 64px;
 }
 
 .me-style {
