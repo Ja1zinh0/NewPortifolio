@@ -69,8 +69,6 @@
 }
 
 .send-btn{
-  width: 240px;
-  height: 50px;
   background-color: #5B5271;
   border: 2px solid black;
   display: flex;
@@ -82,10 +80,12 @@
   background-color: #5B5271;
   color: white;
   font-size: 25px;
+  padding: 15px 50px 5px 50px;
 }
 
 .send-btn-style{
   padding-top: 60px;
   display: flex;
   justify-content: center;
+  padding-bottom: 300px;
 }

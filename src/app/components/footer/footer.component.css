@@ -1,0 +1,96 @@
+.footer {
+  background-color: #2a2b47;
+  height: 250px;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2b47;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.footer-bottom-content p {
+  background-color: #2a2b47;
+  width: fit-content;
+  height: fit-content;
+}
+
+.footer-bottom-div {
+  background-color: #2a2b47;
+  width: 90%;
+}
+
+.line {
+  width: 100%;
+  background-color: white;
+  height: 1px;
+}
+
+.footer-content {
+  width: 100%;
+  background-color: #2a2b47;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.footer-top-content {
+  background-color: #2a2b47;
+  padding-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 90%;
+}
+
+.footer-sendmsg {
+  background-color: #2a2b47;
+  color: white;
+  font-size: 20px;
+  padding-top: 38px;
+}
+
+.footer-sendmsg p {
+  background-color: #2a2b47;
+  padding-bottom: 15px;
+}
+
+.footer-top-buttons {
+  background-color: #2a2b47;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: end;
+}
+
+.footer-top-buttons p {
+  background-color: #2a2b47;
+  padding-bottom: 15px;
+}
+
+.footer-top-button-style{
+  background-color: #2a2b47;
+}
+
+.fa-icons{
+  background-color: #2a2b47;
+  width: fit-content;
+  height: fit-content;
+}
+
+.fa-icons a{
+  background-color: #2a2b47;
+ color: white;
+ padding-right: 10px;
+ font-size: 28px;
+}
+
+.fa-icons i{
+  background-color: #2a2b47;
+}
