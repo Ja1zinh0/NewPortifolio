@@ -12,7 +12,7 @@
 
 .ola-style {
   font-size: 80px;
-  padding-bottom: 30px; 
+  padding-bottom: 30px;
 }
 
 .pres-style {
@@ -54,4 +54,38 @@
 
 .resume-button-div {
   padding-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .brain {
+    display: none;
+  }
+
+  .home-text {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ola-style{
+    font-size: 80px;
+  }
+
+  .pres-style {
+    font-size: 28px;
+  }
+
+  .me-style{
+   font-size: 18px; 
+  }
+  .fa-icons{
+    display: flex;
+    justify-content: center;
+  }
+  .resume-button-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
