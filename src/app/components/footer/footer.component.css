@@ -74,23 +74,42 @@
   padding-bottom: 15px;
 }
 
-.footer-top-button-style{
+.footer-top-button-style {
   background-color: #2a2b47;
 }
 
-.fa-icons{
+.fa-icons {
   background-color: #2a2b47;
   width: fit-content;
   height: fit-content;
 }
 
-.fa-icons a{
+.fa-icons a {
   background-color: #2a2b47;
- color: white;
- padding-right: 10px;
- font-size: 28px;
+  color: white;
+  padding-right: 10px;
+  font-size: 28px;
 }
 
-.fa-icons i{
+.fa-icons i {
   background-color: #2a2b47;
+}
+
+@media (max-width: 900px) {
+  .fa-icons a {
+    width: fit-content;
+    font-size: 18px;
+  }
+
+  .footer-bottom-content p {
+    font-size: 15px;
+  }
+
+  .footer-top-buttons p {
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+  .footer-sendmsg {
+    font-size: 18px;
+  }
 }

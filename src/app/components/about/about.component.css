@@ -190,19 +190,18 @@
   background-color: #403951;
 }
 
-@media (max-width: 900px){
-    .about-background{
-      width: 100%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-    }
-    .about-text{
-      text-size-adjust: auto;
-    }
+@media (max-width: 900px) {
+  .about-background {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .about-text {
+    text-size-adjust: auto;
+  }
 
-    .prof-boxes{
-      flex-wrap: wrap;
-    }
-
+  .prof-boxes {
+    flex-wrap: wrap;
+  }
 }
