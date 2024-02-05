@@ -8,7 +8,12 @@
   color: white;
   text-align: center;
 }
-
+.send-msg-text{
+  font-size: 45px;
+}
+.contact-finaltxt{
+  font-size: 20px;
+}
 .top-field {
   display: flex;
   justify-content: center;
@@ -68,58 +73,55 @@
   resize: none;
 }
 
-.send-btn{
-  background-color: #5B5271;
+.send-btn {
+  background-color: #5b5271;
   border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.send-btn p{
-  background-color: #5B5271;
+.send-btn p {
+  background-color: #5b5271;
   color: white;
   font-size: 25px;
   padding: 15px 50px 5px 50px;
 }
 
-.send-btn-style{
+.send-btn-style {
   padding-top: 60px;
   display: flex;
   justify-content: center;
   padding-bottom: 150px;
 }
 
-@media (max-width: 900px){
-  .contact-text{
+@media (max-width: 900px) {
+  .contact-text {
     text-align: start;
     line-height: 100%;
   }
-  .send-msg-text{
+  .send-msg-text {
     font-size: 30px;
   }
-  .contact-finaltxt{
+  .contact-finaltxt {
     font-size: 15px;
   }
-  .contact{
-    
-  }
-  .name_field{
+  .name_field {
     width: fit-content;
   }
 
-  .name-field-div{
+  .name-field-div {
     padding-left: 10px;
   }
 
-  .email-field-div{
+  .email-field-div {
     padding-right: 10px;
   }
-  .email_field{
+  .email_field {
     width: fit-content;
   }
 
-  .msg_field{
+  .msg_field {
     width: fit-content;
   }
 }

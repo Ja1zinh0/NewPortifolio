@@ -204,4 +204,17 @@
   .prof-boxes {
     flex-wrap: wrap;
   }
+
+  .box-styles{
+    background-color:#6e5774;
+    padding-bottom: 20px;
+  }
+
+  .about-centerText{
+    font-size: 22px;
+  }
+
+  .about-title{
+    font-size: 50px;
+  }
 }
