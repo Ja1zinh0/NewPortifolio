@@ -193,15 +193,15 @@
 @media (max-width: 900px){
     .about-background{
       width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
     }
     .about-text{
       text-size-adjust: auto;
     }
 
     .prof-boxes{
-      position: relative;
-      display: flex;
-      justify-content: center;
       flex-wrap: wrap;
     }
 

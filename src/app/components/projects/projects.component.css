@@ -90,4 +90,19 @@
 }
 
 @media (max-width: 900px){
+  .projects{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
+  .proj-centerdiv{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .proj-title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
 }
