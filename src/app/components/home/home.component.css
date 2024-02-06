@@ -1,6 +1,7 @@
 .home {
   display: flex;
   justify-content: space-between;
+  padding-top: 50px;
 }
 
 .home-text {
@@ -31,7 +32,6 @@
 }
 
 .resume-button {
-  position: relative;
   width: 240px;
   background-color: #5b5271;
   border: 2px solid black;
@@ -68,7 +68,7 @@
     text-align: center;
   }
 
-  .ola-style{
+  .ola-style {
     font-size: 80px;
   }
 
@@ -76,14 +76,14 @@
     font-size: 28px;
   }
 
-  .me-style{
-   font-size: 18px; 
+  .me-style {
+    font-size: 18px;
   }
-  .fa-icons{
+  .fa-icons {
     display: flex;
     justify-content: center;
   }
-  .resume-button-div{
+  .resume-button-div {
     width: 100%;
     display: flex;
     justify-content: center;

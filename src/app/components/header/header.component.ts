@@ -14,4 +14,5 @@ export class HeaderComponent {
     this.menuVariable = !this.menuVariable;
     this.menu_icon_variable = !this.menu_icon_variable;
   }
+  
 }
