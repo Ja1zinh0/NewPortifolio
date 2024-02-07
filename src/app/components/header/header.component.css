@@ -6,6 +6,7 @@ header {
   position: fixed;
   width: 100%;
 }
+
 .left-write {
   float: left;
   align-content: start;
@@ -49,6 +50,7 @@ header {
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
+
 
 @media (max-width: 767px) {
   header {

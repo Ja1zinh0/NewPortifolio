@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;1,100;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;1,100;1,200&display=swap");
 
-*{
-    margin: 0;
-	padding: 0;
-	border: 0;
-	background-color: #5B5271;
-	font-family: 'JetBrains Mono', monospace;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #5b5271;
+  font-family: "JetBrains Mono", monospace;
+  scroll-behavior: smooth;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
