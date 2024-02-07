@@ -89,3 +89,21 @@
     justify-content: center;
   }
 }
+
+@media (min-width: 1600px){
+  .brain{
+    width: 900px;
+  }
+
+  .ola-style {
+    font-size: 110px;
+  }
+
+  .pres-style {
+    font-size: 50px;
+  }
+
+  .me-style {
+    font-size: 30px;
+  }
+}
