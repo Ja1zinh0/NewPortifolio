@@ -7,3 +7,7 @@
   background-color: #5b5271;
   font-family: "JetBrains Mono", monospace;
 }
+
+html{
+  scroll-behavior: smooth;
+}
