@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
-
 export class HeaderComponent {
   constructor() {}
   menu_icon_variable: boolean = false;
@@ -15,4 +14,5 @@ export class HeaderComponent {
     this.menuVariable = !this.menuVariable;
     this.menu_icon_variable = !this.menu_icon_variable;
   }
+
 }

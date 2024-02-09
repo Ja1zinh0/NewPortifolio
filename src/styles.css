@@ -6,10 +6,4 @@
   border: 0;
   background-color: #5b5271;
   font-family: "JetBrains Mono", monospace;
-  scroll-behavior: smooth;
 }
-
-html{
-  scroll-behavior: smooth;
-}
-

@@ -17,6 +17,8 @@ import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MaismixComponent } from './view/maismix/maismix.component';
+import { MainComponent } from './view/main/main.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ProjectsComponent,
     ContactComponent,
     FooterComponent,
+    MaismixComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,

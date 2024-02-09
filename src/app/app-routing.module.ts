@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MaismixComponent } from './view/maismix/maismix.component';
+import { MainComponent } from './view/main/main.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'maismix', component: MaismixComponent },
+  { path: 'main', component: MainComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
