@@ -1,0 +1,74 @@
+.maismix-home {
+  padding-top: 40px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 35px;
+  color: white;
+}
+
+.slider {
+  margin: 0 auto;
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 400%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 25%;
+  position: relative;
+}
+
+.slide img {
+  width: 350px;
+}
+
+.manual-navigation {
+  position: absolute;
+  width: 350px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual-btn:hover {
+  background-color: white;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}

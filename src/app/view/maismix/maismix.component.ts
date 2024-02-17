@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './maismix.component.css'
 })
 export class MaismixComponent {
-
+  
 }
